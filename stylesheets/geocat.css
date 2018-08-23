@@ -1,0 +1,76 @@
+.reveal h1 {
+  color: #251c42;
+}
+
+.reveal h2 {
+  color: #251c42;
+}
+
+.reveal h3 {
+  color: #251c42;
+}
+
+.reveal h4 {
+  color: #1f98cb;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h4, .reveal {
+  font-family: Impact,OpenSans,Helvetica,Arial,Lucida,sans-serif
+}
+
+.reveal h3, .reveal h4, .reveal h4, .reveal {
+  font-family: Impact,OpenSans,Helvetica,Arial,Lucida,sans-serif
+}
+
+.reveal a:not(.image):hover, a:hover {
+  color: #82779d;
+}
+
+.reveal a:not(.image), a {
+  color: #18779d;
+}
+
+.reveal > header.universal {
+  display:none;
+}
+
+.reveal > footer.universal {
+  background-color: #0099CC; 
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  min-height: 50px;
+}
+
+.reveal > footer.universal > div > img {
+  max-width:45%;
+  max-height: 16px;
+}
+
+.reveal > footer.universal > footer {
+   border-top: 1px solid white;
+   position: absolute;
+   bottom: 0px;
+   width: 100%;
+}
+
+body {
+  background: white;
+}
+
+
+.reveal .controls {
+  bottom: 60px;
+}
+.reveal .controls div.navigate-right.enabled {
+  border-left-color:#0099CC;
+}
+.reveal .controls div.navigate-left.enabled {
+  border-right-color:#0099CC;
+}
+.reveal .controls div.navigate-down.enabled {
+  border-top-color:#0099CC;
+}
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color:#0099CC;
+}
